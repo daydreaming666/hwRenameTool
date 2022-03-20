@@ -84,7 +84,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     @pyqtSlot()
     def open_help_page(self):
-        os.system("start https://www.baidu.com")
+        # open help page using default browser
+        win32api.ShellExecute(0, 'open', "https://github.com/daydreaming666/hwRenameTool",
+                              '', '', 1)
 
     @pyqtSlot()
     def set_working_directory(self):
