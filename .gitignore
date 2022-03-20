@@ -1,0 +1,9 @@
+/venv/
+/dist/
+/build/
+/.idea
+/__pycache__/
+/rcc/__pycache__/
+*.pyc
+*.pyo
+*.pyd
